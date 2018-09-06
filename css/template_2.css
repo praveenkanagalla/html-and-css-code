@@ -1,0 +1,1903 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 100px;
+    background-color: #000;
+    padding-left: 87px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.logo {
+    padding: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-menu {
+    padding: 25px 100px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-icons {
+    float: right;
+}
+
+#menulist {
+    background-color: #000; 
+    margin: 15px -100px ;
+    padding-bottom: 50px;
+    float: right;
+    position: initial;
+    z-index: 99;
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.menulist-text {
+    padding: 60px;
+    border-top: 0.5px solid #7b7b7b;
+    cursor: pointer;
+}
+
+.menu {
+    float: right;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.menu-heading {
+     font-family: 'Fira Sans', sans-serif;
+     font-weight: bold; 
+     color: #fff;
+     font-size: 20px;
+     padding: 0 40px;
+}
+
+#menulist ul {
+    display: none;
+    font-family: 'Fira Sans', sans-serif;
+    list-style-type: none;
+    width : 25%;
+    float: left;
+    display: inline-block;
+    min-height: 250px;
+    font-weight: 300;
+ }
+
+.menulist-text li {
+    font-family: 'Fira Sans', sans-serif;
+    color: #7b7b7b;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.menu:hover #menulist{
+    display: block;
+}
+
+.menu-heading {
+    font-size: 25px;
+    color: #fff;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.menu text {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.search {
+    float: left;
+    cursor: pointer;
+    padding-right: 20px;
+    margin-top: 14px;
+    
+}
+
+.contact {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    float: left;;
+    cursor: pointer;
+    margin: -10px 30px 0 0;
+    padding: 10px 20px;
+    background-color: #222;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    border-radius: 40px;
+}
+
+.contact-button {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.contact a:hover .contact-menu {
+    display: block;
+}
+
+.contact-menu {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+.contact-menu a span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #eee;
+}
+
+.contact-menu a {
+    float: left;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.contact-menu span {
+    display: block;
+}
+
+.banner-container {
+    background-image: url("css_images/hero_banner.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner-text {
+    padding: 100px;
+}
+
+.row-place {
+    padding-left: 100px;
+}
+
+.banner-heading {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100px;
+    width: 40%;
+    font-weight: bold;
+    line-height: 90px;
+}
+
+.banner-paragraph {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 20px;
+    width: 25%;
+}
+
+.banner-learn {
+    padding-top: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.banner-learn span {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+
+.banner-icon {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.banner-icon:after {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 70px; 
+    left: 0;
+}
+
+.banner-icon:before {
+    content: '';
+    width: 140px;
+    height: 3px;
+    background: #ccc;
+    position: absolute;
+    top: 70px;    
+}
+
+.main-container {
+    padding: 100px;
+    overflow: hidden;
+}
+
+.heading span {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    color: #004990;
+    display: block;
+}
+
+.heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 70px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #004990;
+}
+
+.paragraph {
+    font-family: 'Fira Sans', sans-serif;
+    color: #546670;
+    padding: 40px 0;
+    font-size: 25.5px;
+    line-height: 40px;
+}
+
+.column-images {
+    clear:both;
+    cursor: pointer;
+    margin-right: -15px;
+}
+
+.vessel-container {
+    padding-right: 20px;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.vessel {
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.05); 
+}
+
+.vessel-image {
+    position: relative;
+    vertical-align: bottom;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-radius {
+    border-radius: 30px 0 0 0;
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+
+.vessel-icons {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    bottom: -15px;
+    height: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px;
+    position: absolute;
+    width: 60px;
+}
+
+.vessel-icons img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.vessel-text {
+    padding: 30px 10px 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.vessel-heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #D11242;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.vessel-paragraph {
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.library {
+    width: 100%;
+    overflow: hidden;
+}
+
+.online-library {
+    width: 50%;
+    background-color: #546670;
+    color: #fff;
+    border-radius: 80px 0 0 0;
+    padding: 25px 85px 25px 65px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+.online-library a {
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.library-text {
+    display: inline-block;
+    float: right;
+    width: calc(100% - 120px);
+}
+
+.library-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 35px;   
+}
+
+.library-paragraph {
+    color: #eee;
+    font-size: 16px;
+    padding: 0;
+    line-height: 25px;
+}
+
+.fee-calc {
+    border-left: 4px solid #fff;
+    border-radius: 0;
+}
+
+.liberian-container {
+    background-color: #f2f2f2;
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+    clear: both;
+}
+
+.left-image {
+    background-image: url("css_images/ship_img.png");
+    height:100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: -900px;
+}
+
+.about-text {
+    padding-left: 480px;
+}
+
+.about-heading {
+    font-size: 65px;
+    line-height: 55px;
+    padding-left: 30px;
+}
+
+.about-paragraph {
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.world-ship {
+    overflow: hidden;
+}
+
+.largest-ship {
+    width: 33.33%;
+    float: left;
+}
+
+.ship-heading {
+    color: #d11242;
+    font-size: 60px;
+    padding-left: 30px;
+}
+
+.ship-heading:after {
+    content: '';
+    display: inline-block;
+    margin: 0 0 -15px -100px;
+    width: 90px;
+    height: 3px;
+    background: #b4bbc0;
+}
+
+.ship-heading text {
+    color: #d11242;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+.ship-paragraph {
+    padding:30px 70px 15px 30px;
+    font-size: 18px;
+}
+
+.learn-more-img {
+    padding: 20px 30px;
+}
+
+.unique-img {
+    padding-left: 50px;
+}
+
+.what-new-container {
+   clear: both;
+    background-color: #004990;
+    width: 85%;
+    border-radius: 0 80px 0 0;
+}
+
+.new-container {
+    position: relative;
+    padding-left: 250px;
+    padding-top: 80px;
+    overflow: hidden;
+    clear: both;
+}
+
+.new-heading {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 50px;
+}
+
+.new-heading span {
+    color: #fff;
+    text-transform: lowercase;
+    font-weight: 100;
+    display: block;
+}
+
+.image-text {
+     display: flex;
+}
+
+.new-img {
+    padding: 40px 40px 100px 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.new-text {
+    float: left;
+    padding-right: 60px;
+}
+
+.video-heading { 
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 40px;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+} 
+
+.video-paragraph {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 30px;
+    font-weight:300;
+}
+
+.registry-container {
+    overflow: hidden;
+}
+
+.reg-main-container {
+    background-color: #f2f2f2;
+    width: 60%;
+    padding: 80px 0 60px 100px;
+    float: left;
+}
+
+.event-heading {
+    color: #000;
+    font-size: 45px;
+    line-height: 15px;
+}
+
+.event-paragraph{
+     font-size: 20px;
+     color: #000;
+     line-height: 30px;
+     padding-right: 65px;
+}
+
+.events-list {
+     margin-bottom: 30px; 
+     font-family: 'Fira Sans', sans-serif;
+}
+
+.event-img {
+     border-radius: 20px 0 0 0;
+     display: inline-block;
+     overflow: hidden;
+     vertical-align: top;
+     cursor: pointer;
+}
+
+.event-text {
+     padding-left:20px;
+     display: inline-block;
+     vertical-align: top;
+     width: calc(100% - 174px);
+}
+
+.event-paragraph-text {
+     padding: 0px 45px 0 0;
+     color: #000;
+     font-size: 18px;
+     line-height: 30px;
+}
+
+.field-content {
+     font-size: 15px; 
+     display: inline-block;
+     padding: 0;
+     cursor: pointer;
+}
+
+.event-content {
+     padding-left:20px;
+     display: inline-block;
+     vertical-align: top;
+     width: calc(100% - 174px);
+}
+
+.more-news {
+     color: #D11242;
+     font-size: 18px;
+     font-weight: 400;
+     text-transform: uppercase;
+     overflow: hidden;
+     position: relative;
+     cursor: pointer;
+}
+
+.more-news:before {
+    content: '';
+    width: 125px;
+    height: 3px;
+    background: #dc859b;
+    position: absolute;
+    top: 27px;
+}
+
+.more-news:after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background: #D11242;
+    position: absolute;
+    top: 27px;
+    left: 0;
+}   
+
+.right-angle {
+    font-size: 22px;
+    color: #D11242;
+    padding-left: 15px;
+    padding-bottom: 0;
+}
+
+.event-container {
+     float: left;
+     width: 40%;
+     padding: 80px 0 60px 50px;
+     background-color: #afcce0;
+}
+
+.date-month {
+     padding: 15px 18px 15px 35px;
+     background-color: #000;
+     display: inline-block;
+     border-radius: 20px 0 0 0;
+     cursor: pointer;
+}
+
+.month {
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+    display: block;
+}
+
+.date {
+    color: #fff;
+    font-size: 40px;
+}
+
+.reg-reach {
+     color: #000;
+     font-size: 20px;
+     line-height: 25px; 
+}
+
+.reg-reach-prg {
+    padding: 10px 0 0 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.more-events:before {
+    width: 140px;
+}
+
+.excel-container {
+    background-color: #546670;
+    padding: 80px 100px;
+    height: 400px;
+    clear: both;
+    overflow: hidden;
+}
+
+.excellence {
+    width: 50%;
+    padding: 0 100px;
+    position: relative;
+    float: left;
+    height: 100%;
+}
+
+.excellence-video {
+    background-image: url("css_images/excellence_video_thumb.jpg");
+    height: 100vh;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+
+.youtube {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-text {
+    width: 50%;
+    float: left;
+}
+
+.excel-heading {
+    color: #fff;
+    margin-top: -20px;
+}
+
+.excel-heading span {
+    color: #fff;
+    font-size: 40px;
+    display: block;
+}
+
+.excel-paragraph {
+    margin-top: -10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.apps-container {
+    position: relative;
+}
+
+.apps {
+    background-color: #fff;
+    padding: 50px 100px;
+}
+
+.app-text {
+    padding-left: 100px;
+}
+
+.app-heading text {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.more-learn {
+    padding-top: 25px;
+}
+
+.stores {
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.app-store {
+    padding-left: 10px;
+}
+
+.mobile-app {
+    position: absolute;
+    left: 63%;
+    top: 51%;
+    transform: translateX(-37%) translateY(-49%);
+    z-index: 2;
+}
+
+.mobile-place {
+    position: relative;
+    padding: 70px;
+    background-color: #0a0909;
+}
+
+.footer {
+    position: relative;
+    border-top: 1px solid #7b7b7b;
+    cursor: pointer;
+}
+
+.opations-container {
+    background-color: #0a0909;
+    padding: 50px 100px;
+}
+
+.registry-text {
+    padding-right: 57px;
+    display: inline-block;
+}
+
+.registry-heading {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.registry-heading span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    display: block;
+}
+
+.opations-file {
+    font-family: 'Fira Sans', sans-serif;
+    color: #7b7b7b;
+    padding-top: 10px;
+}
+
+.footer-opation {
+    display: block;
+    padding-top: 10px;
+    color: #7b7b7b;
+}
+
+.reg-text {
+    padding-left: 47px;
+}
+
+.map-image {
+    padding-top: 10px;
+}
+
+.reg-icon-container {
+    margin-right: -47px;
+}
+
+.head-heading {
+    font-size: 20px;
+    line-height: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.head-heading:before {
+    content: '';
+    width: 230px;
+    height: 3px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 27px;
+}
+
+.head-heading:after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 27px;
+    left: 0;
+}  
+
+.head-icon {
+    color: #fff;
+    padding-left: 120px;
+    font-size: 25px;
+}
+
+.follow-heading {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.footer-icons {
+    padding-top: 20px;
+}
+
+.icons {
+    color: #7b7b7b;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #7b7b7b;
+    border-radius: 50%;
+}
+
+.twit-link-you {
+    margin-left: 14px;
+}
+
+.links {
+    padding: 20px 100px;
+    background-color: #000;
+}
+
+.link-paragraph {
+    font-family: 'Fira Sans', sans-serif;
+    color: #7b7b7b;
+}
+
+.link-text {
+    font-family: 'Fira Sans', sans-serif;
+    color: #7b7b7b;
+    float: right;
+    margin-top: -20px;
+}
+
+.link-palicy {
+    list-style: none;
+    display: inline-block;
+    color: #7b7b7b;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+.header-container {
+    padding: 0 50px;
+    height: 100px;
+}
+    
+.logo {
+    width: 60%; 
+    padding: 13px 0;
+}
+    
+.logo img {
+    max-width: 100%;    
+}
+    
+.header-menu {
+    padding: 30px 50px;    
+}
+    
+.contact {
+    display: none;    
+}
+    
+.menu text {
+    display: none;    
+}
+    
+.search {
+    margin-top: 14px;    
+}
+    
+.menu {
+    margin-top: 14px;    
+}
+    
+#menulist {
+    margin: 23px -50px 0;
+    padding-bottom: 0;
+}
+    
+.menulist-text {
+    padding: 50px;
+    overflow: hidden;
+}
+    
+#menulist ul {
+    width: 100%;
+    min-height: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    border: 0.5px solid #7b7b7b;
+}
+    
+.vessel-reg {
+    display: none;
+}
+    
+.vessel-reg-heading:hover .vessel-reg {
+    display: block;
+}
+    
+.mari {
+    display: none;    
+}
+    
+.maritime-heading:hover .mari {
+    display: block;    
+}
+    
+.seafar {
+    display: none;
+}
+    
+.seafar-heading:hover .seafar {
+    display: block;    
+}
+    
+.corporate {
+    display: none;    
+}
+    
+.corporate-heading:hover .corporate {
+     display: block;   
+}
+    
+.contact-us {
+    display: none;    
+}
+    
+.cont-us-heading:hover .contact-us {
+    display: block;    
+}
+    
+.about-us {
+    display: none;    
+}
+    
+.us-heading:hover .about-us {
+    display: block;
+}
+    
+.online {
+     display: none;   
+}
+    
+.on-lib-heading:hover .online {
+    display: block;    
+}
+    
+.news {
+    display: none;    
+}
+    
+.news-heading:hover .news {
+    display: block;    
+}
+    
+.row-place {
+    padding-left: 50px;
+}
+    
+.banner-text {
+    padding: 150px 50px 200px;    
+}
+      
+.banner-heading {
+    font-size: 60px;
+    line-height: 50px;
+    width: 100%;
+}
+    
+.banner-paragraph {
+    font-size: 35px; 
+    width: 60%;
+    line-height: 40px;
+    padding-top: 50px;
+}
+    
+.banner-learn {
+    padding: 40px 0;    
+}
+
+.banner-icon:before {
+    top: 50px;    
+}
+    
+.banner-icon:after {
+    top: 50px;    
+}
+    
+.main-container {
+    padding: 50px;    
+}
+    
+.heading {
+    font-size: 60px;
+    line-height: 45px;
+}
+    
+.heading span {
+    font-size: 40px;
+    font-weight: 400;
+    display: block;
+}
+    
+.paragraph {
+    font-size: 23px;
+    line-height: 30px;
+    padding: 20px 0;   
+}
+    
+.vessel-container {
+    width: 50%;
+    padding-top: 35px;
+    padding-right: 16px;
+}
+    
+.vessel-text {
+    padding: 30px 10px 35px;    
+}
+    
+.vessel-heading {
+    font-size: 25px;    
+}
+    
+.vessel-paragraph {
+    font-size: 20px;    
+}
+  
+.online-library {
+    width: 100%; 
+}
+    
+online-library a {
+    margin-top: 0;    
+}
+    
+.library-text {
+    float: none;
+    margin-left: 30px;
+}
+    
+.library-heading {
+    font-size: 30px; 
+    line-height: 30px;
+}
+    
+.library-paragraph {
+    font-size: 20px;    
+}
+    
+.fee-calc {
+    border-left: 0;
+    border-top: 4px solid #fff;
+}
+    
+.liberian-container {
+    padding-top: 50px;    
+}
+    
+.left-image {
+    background-position: -1040px;    
+}
+    
+.about-text {
+    padding: 0px 50px 0px 400px;    
+}
+    
+.about-heading {
+    padding-left: 0;
+    font-size: 40px;
+}
+    
+.about-heading span {
+    padding-left: 0;
+    font-size: 25px;
+}
+    
+.largest-ship {
+    width: 100%;    
+}
+    
+.ship-heading {
+    padding-left: 0;
+}
+    
+.learn-more-img {
+    padding-left: 0;
+}
+    
+.unique-img {
+    display: inline-block;
+    padding-top: 0;
+    padding-left: 20px;
+}
+    
+.what-new-container {
+    width: 80%;
+}
+    
+.new-container {
+    padding-left: 0;
+    text-align: center;
+}
+    
+.image-text {
+    display: block;
+    padding-top: 20px;
+}
+    
+.new-img {
+    padding: 0;
+    text-align: center;
+    float: none;
+}
+    
+.new-text {
+    float: none;
+    padding: 0;
+    padding: 50px;
+}
+    
+.video-heading {
+    font-size: 17px;
+    padding: 0;
+}
+    
+.reg-main-container {
+    width: 100%;
+    padding: 50px;
+    float: none;    
+}
+    
+.event-heading {
+    font-size: 35px;
+}
+    
+.event-paragraph-text {
+    padding-bottom: 5px;    
+}
+    
+.event-img {
+    width: 100%;
+    display: block;
+}
+    
+.event-text {
+    width: 100%;
+    padding-left: 0;
+}
+    
+.field-content {
+    padding: 0;    
+}
+    
+.more-news {
+    font-size: 18px;
+}
+    
+.event-container {
+    width: 100%;
+    padding: 50px;
+    float: none;
+}
+    
+.events-list {
+    overflow: hidden;    
+}
+    
+.date-month {
+    padding: 10px 10px 10px 25px; 
+    float: left;
+}
+    
+.month {
+    font-size: 15px;
+    padding-left: 5px;    
+}
+    
+.date {
+    font-size: 30px;    
+}
+    
+.event-content {
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 70px);  
+} 
+    
+.reg-reach {
+    font-size: 18px;    
+}
+    
+.reg-reach-prg {
+    padding-top: 5px;    
+}
+    
+.excel-container {
+    padding: 50px 15px; 
+    height: 100%;
+}
+    
+.excellence {
+    width: 100%;
+    padding: 0;
+    float: none; 
+}
+    
+.excellence-video {
+    height: 46vh;    
+}
+
+.youtube {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+    
+.video-text {
+    width: 100%;
+    float: none;
+    display: inline-table;
+    padding-top: 50px;
+}
+    
+.apps {
+    padding: 0;    
+}
+    
+.app-text {
+    padding: 50px 15px;    
+}
+    
+.stores {
+    padding-top: 40px;
+    width: 40%;
+}
+    
+.stores img {
+    max-width: 100%;
+}
+    
+.app-store {
+    padding-left: 0;
+}
+    
+.mobile-app {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    transform: translateX(-40%) translateY(-30%);
+    z-index: 2;
+    width: 60%;
+}
+    
+.mobile-app img {
+    max-width: 100%;    
+}
+    
+.mobile-place {
+    padding: 40px;    
+}
+    
+.opations-container {
+    padding: 50px 15px;    
+}
+    
+.registry-text {
+    padding-right: 0; 
+} 
+    
+.reg-text {
+    padding-left: 0;
+    padding-top: 30px;
+}
+    
+.footer-opation {
+    padding-top: 0;    
+}
+    
+.head-icon {
+    padding-left: 175px;    
+}
+    
+.head-heading:before {
+    content: '';
+    width: 290px;
+    height: 3px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 27px;
+} 
+    
+.links {
+    padding: 20px 15px;    
+}
+    
+.link-paragraph {
+    font-size: 14px;
+}
+    
+.link-text {
+    display: none;    
+}
+    
+}
+
+@media screen and (max-width:767px){
+.header-container {
+    padding: 0 15px;
+    height: 77px;
+}
+    
+.logo {
+    width: 60%; 
+}
+    
+.logo img {
+    max-width: 100%;    
+}
+    
+.header-menu {
+    padding: 30px 15px;    
+}
+    
+.contact {
+    display: none;    
+}
+    
+.menu text {
+    display: none;    
+}
+    
+.search {
+    margin-top: 0;    
+}
+    
+.menu {
+    margin-top: 0;    
+}
+    
+#menulist {
+    margin: 23px -15px 0;
+    padding-bottom: 0;
+}
+    
+.menulist-text {
+    padding: 15px;
+    overflow: hidden;
+}
+    
+#menulist ul {
+    width: 100%;
+    min-height: 0;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0.5px solid #7b7b7b;
+}
+    
+.vessel-text {
+    padding: 30px 10px 35px;    
+}
+    
+.vessel-reg {
+    display: none;
+}
+    
+.vessel-reg-heading:hover .vessel-reg {
+    display: block;
+}
+    
+.mari {
+    display: none;    
+}
+    
+.maritime-heading:hover .mari {
+    display: block;    
+}
+    
+.seafar {
+    display: none;
+}
+    
+.seafar-heading:hover .seafar {
+    display: block;    
+}
+    
+.corporate {
+    display: none;    
+}
+    
+.corporate-heading:hover .corporate {
+     display: block;   
+}
+    
+.contact-us {
+    display: none;    
+}
+    
+.cont-us-heading:hover .contact-us {
+    display: block;    
+}
+    
+.about-us {
+    display: none;    
+}
+    
+.us-heading:hover .about-us {
+    display: block;
+}
+    
+.online {
+     display: none;   
+}
+    
+.on-lib-heading:hover .online {
+    display: block;    
+}
+    
+.news {
+    display: none;    
+}
+    
+.news-heading:hover .news {
+    display: block;    
+}
+    
+.row-place {
+    padding-left: 15px;
+}
+    
+.banner-text {
+    padding: 50px 15px;    
+}
+      
+.banner-heading {
+    font-size: 45px;
+    line-height: 40px;
+    width: 100%;
+}
+    
+.banner-paragraph {
+    font-size: 25px; 
+    width: 60%;
+}
+    
+.banner-learn {
+    padding-top: 40px;    
+}
+
+.banner-icon:before {
+    top: 42px;    
+}
+    
+.banner-icon:after {
+    top: 42px;    
+}
+    
+.main-container {
+    padding: 50px 15px;    
+}
+    
+.heading {
+    font-size: 40px;
+    line-height: 30px;
+}
+    
+.heading span {
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+}
+    
+.paragraph {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px 0;   
+}
+    
+.vessel-container {
+    width: 100%;
+    padding-top: 20px;    
+}
+    
+.vessel-paragraph {
+    display: none;    
+}
+    
+.online-library {
+    width: 100%; 
+    padding: 20px;
+}
+    
+.online-library span {
+    margin-top: 0;    
+}
+    
+.library-text {
+    float: none;
+    margin-left: 10px;
+}
+    
+.library-heading {
+    font-size: 20px; 
+    margin-top: 10px;
+    line-height: 25px;
+}
+    
+.library-paragraph {
+    display: none;    
+}
+    
+.fee-calc {
+    border-left: 0;
+    border-top: 4px solid #fff;
+}
+    
+.liberian-container {
+    padding-top: 50px;    
+}
+    
+.left-image {
+    background-image: none;    
+}
+    
+.about-text {
+    padding: 20px;    
+}
+    
+.about-heading {
+    padding-left: 0;
+    font-size: 34px;
+}
+    
+.about-heading span {
+    padding-left: 0;
+    font-size: 20px;
+}
+    
+.largest-ship {
+    width: 100%;    
+}
+    
+.ship-heading {
+    padding-left: 0;
+}
+    
+.learn-more-img {
+    padding-left: 0;
+}
+    
+.unique-img {
+    display: block;
+    padding-top: 30px;
+    padding-left: 0;
+}
+    
+.what-new-container {
+    width: 100%;
+    margin-top: 50px;
+}
+    
+.new-container {
+    padding-left: 0;
+    text-align: center;
+}
+    
+.image-text {
+    display: block;
+    padding-top: 20px;
+}
+    
+.new-img {
+    padding: 0;
+    text-align: center;
+    float: none;
+}
+    
+.new-text {
+    float: none;
+    padding: 0;
+    padding: 50px;
+}
+    
+.video-heading {
+    font-size: 17px;
+    padding: 0;
+}
+    
+.reg-main-container {
+    width: 100%;
+    padding: 50px 15px;
+    float: none;    
+}
+    
+.event-heading {
+    font-size: 25px;
+}
+    
+.event-paragraph-text {
+    padding-bottom: 5px;    
+}
+    
+.event-img {
+    width: 100%;
+    display: block;
+}
+    
+.event-text {
+    width: 100%;
+    padding-left: 0;
+}
+    
+.field-content {
+    padding: 0;    
+}
+    
+.more-news {
+    font-size: 18px;
+}
+    
+.event-container {
+    width: 100%;
+    padding: 50px 15px;
+    float: none;
+}
+    
+.events-list {
+    overflow: hidden;    
+}
+    
+.date-month {
+    padding: 10px 10px 10px 25px; 
+    float: left;
+}
+    
+.month {
+    font-size: 15px;
+    padding-left: 5px;    
+}
+    
+.date {
+    font-size: 30px;    
+}
+    
+.event-content {
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 70px);  
+} 
+    
+.reg-reach {
+    font-size: 18px;    
+}
+    
+.reg-reach-prg {
+    padding-top: 5px;    
+}
+    
+.excel-container {
+    padding: 50px 15px; 
+    height: 100%;
+}
+    
+.excellence {
+    width: 100%;
+    padding: 0;
+    float: none; 
+}
+    
+.excellence-video {
+    height: 46vh;    
+}
+
+.youtube {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+    
+.video-text {
+    width: 100%;
+    float: none;
+    display: inline-table;
+    padding-top: 50px;
+}
+    
+.apps {
+    padding: 0;    
+}
+    
+.app-text {
+    padding: 50px 15px;    
+}
+    
+.stores {
+    padding-top: 40px;
+    width: 40%;
+}
+    
+.stores img {
+    max-width: 100%;
+}
+    
+.app-store {
+    padding-left: 0;
+}
+    
+.mobile-app {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    transform: translateX(-40%) translateY(-30%);
+    z-index: 2;
+    width: 60%;
+}
+    
+.mobile-app img {
+    max-width: 100%;    
+}
+    
+.mobile-place {
+    padding: 40px;    
+}
+    
+.opations-container {
+    padding: 50px 15px;    
+}
+    
+.registry-text {
+    padding-right: 0; 
+} 
+    
+.reg-text {
+    padding-left: 0;
+    padding-top: 30px;
+}
+    
+.footer-opation {
+    padding-top: 0;    
+}
+    
+.head-icon {
+    padding-left: 175px;    
+}
+    
+.head-heading:before {
+    content: '';
+    width: 290px;
+    height: 3px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 27px;
+} 
+    
+.links {
+    padding: 20px 15px;    
+}
+    
+.link-paragraph {
+    font-size: 14px;
+}
+    
+.link-text {
+    display: none;    
+}
+}
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="country_select_arrow" class="cls-1" d="M1574.1,354.092a0.371,0.371,0,0,0,0,.5v8.8a0.369,0.369,0,0,0,0,.5,0.307,0.307,0,0,0,.46,0l4.34-4.648a0.339,0.339,0,0,0,.1-0.25,0.352,0.352,0,0,0-.1-0.25l-4.34-4.648A0.3,0.3,0,0,0,1574.1,354.092Z" transform="translate(-1571.5 -349)"/>
+</svg>
