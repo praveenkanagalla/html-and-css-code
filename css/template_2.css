@@ -1263,18 +1263,17 @@ online-library a {
 }
     
 .excel-container {
-    padding: 50px 15px; 
+    padding: 50px; 
     height: 100%;
 }
     
 .excellence {
-    width: 100%;
     padding: 0;
     float: none; 
 }
     
 .excellence-video {
-    height: 46vh;    
+    height: 25vh;    
 }
 
 .youtube {
@@ -1314,9 +1313,9 @@ online-library a {
     
 .mobile-app {
     position: absolute;
-    left: 60%;
-    top: 70%;
-    transform: translateX(-40%) translateY(-30%);
+    left: 57%;
+    top: 57%;
+    transform: translateX(-43%) translateY(-43%);
     z-index: 2;
     width: 60%;
 }
@@ -1330,7 +1329,7 @@ online-library a {
 }
     
 .opations-container {
-    padding: 50px 15px;    
+    padding: 50px;    
 }
     
 .registry-text {
